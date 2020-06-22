@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="nttuan.codes.Model.GiaoVienDeTai" table="GiaoVienDeTai" schema="nttuanco_Test">
+        <composite-id mapped="true" class="nttuan.codes.Model.GiaoVienDeTaiPK">
+            <key-property name="maGiaoVien">
+                <column name="MaGiaoVien" sql-type="char(5)" length="5"/>
+            </key-property>
+            <key-property name="dienThoai">
+                <column name="DienThoai" sql-type="char(12)" length="12"/>
+            </key-property>
+        </composite-id>
+        <many-to-one name="giaoVienByMaGiaoVien" class="nttuan.codes.Model.GiaoVien">
+            <column name="MaGiaoVien"/>
+        </many-to-one>
+    </class>
+</hibernate-mapping>

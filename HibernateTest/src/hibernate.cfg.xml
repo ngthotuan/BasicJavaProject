@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+<!--    CREATE DATABASE DeTai;-->
+<!--    USE DeTai;-->
+<!--    CREATE TABLE GiaoVien ( MaGiaoVien nvarchar ( 10 ) PRIMARY KEY, TenGiaoVien nvarchar ( 50 ) );-->
+<!--    CREATE TABLE DeTai ( MaDeTai nvarchar ( 10 ) PRIMARY KEY, TenDeTai nvarchar ( 50 ) );-->
+<!--    CREATE TABLE ThamGiaDeTai ( MaGiaoVien nvarchar ( 10 ), MaDeTai nvarchar ( 10 ) );-->
+<!--    ALTER TABLE ThamGiaDeTai ADD FOREIGN KEY (MaGiaoVien) REFERENCES GiaoVien ( MaGiaoVien );-->
+<!--    ALTER TABLE ThamGiaDeTai ADD FOREIGN KEY (MaDeTai) REFERENCES DeTai ( MaDeTai );-->
+<!--    ALTER TABLE ThamGiaDeTai ADD PRIMARY KEY (MaGiaoVien, MaDeTai);-->
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="connection.url">jdbc:mysql://52.165.150.178:3306/DeTai</property>
+      <property name="hibernate.connection.username">root</property>
+      <property name="hibernate.connection.password">root123</property>
+      <mapping resource="DeTai.hbm.xml"/>
+      <mapping resource="GiaoVien.hbm.xml"/>
+      <mapping resource="ThamGiaDeTai.hbm.xml"/>
+
+
+      <!-- DB schema will be updated if needed -->
+    <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

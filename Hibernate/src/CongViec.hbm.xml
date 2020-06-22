@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="nttuan.codes.Model.CongViec" table="CongViec" schema="nttuanco_Test">
+        <composite-id mapped="true" class="nttuan.codes.Model.CongViecPK">
+            <key-property name="maDeTai">
+                <column name="MaDeTai" sql-type="char(3)" length="3"/>
+            </key-property>
+            <key-property name="soThuTu">
+                <column name="SoThuTu" sql-type="int(11)"/>
+            </key-property>
+        </composite-id>
+        <property name="tenCongViec">
+            <column name="TenCongViec" sql-type="varchar(40)" length="40" not-null="true"/>
+        </property>
+        <property name="ngayBatDau">
+            <column name="NgayBatDau" sql-type="datetime" not-null="true"/>
+        </property>
+        <property name="ngayKetThuc">
+            <column name="NgayKetThuc" sql-type="datetime" not-null="true"/>
+        </property>
+        <many-to-one name="deTaiByMaDeTai" class="nttuan.codes.Model.DeTai">
+            <column name="MaDeTai"/>
+        </many-to-one>
+        <set name="thamGiaDeTais" inverse="true">
+            <key>
+                <column name="MaDeTai"/>
+                <column name="SoThuTu"/>
+            </key>
+            <one-to-many not-found="ignore" class="nttuan.codes.Model.ThamGiaDeTai"/>
+        </set>
+    </class>
+</hibernate-mapping>

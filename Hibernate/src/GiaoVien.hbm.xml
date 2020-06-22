@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="nttuan.codes.Model.GiaoVien" table="GiaoVien" schema="nttuanco_Test">
+        <id name="maGiaoVien">
+            <column name="MaGiaoVien" sql-type="char(5)" length="5"/>
+        </id>
+        <property name="hoTen">
+            <column name="HoTen" sql-type="varchar(40)" length="40" not-null="true"/>
+        </property>
+        <property name="luong">
+            <column name="Luong" sql-type="float" precision="-1" not-null="true"/>
+        </property>
+        <property name="phai">
+            <column name="Phai" sql-type="char(3)" length="3" not-null="true"/>
+        </property>
+        <property name="ngaySinh">
+            <column name="NgaySinh" sql-type="datetime" not-null="true"/>
+        </property>
+        <property name="diaChi">
+            <column name="DiaChi" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="gvqlcm">
+            <column name="Gvqlcm" sql-type="char(5)" length="5" not-null="true"/>
+        </property>
+        <property name="maBoMon">
+            <column name="MaBoMon" sql-type="char(5)" length="5" not-null="true"/>
+        </property>
+        <many-to-one name="giaoVienByGvqlcm" class="nttuan.codes.Model.GiaoVien">
+            <column name="Gvqlcm" not-null="true"/>
+        </many-to-one>
+        <many-to-one name="boMonByMaBoMon" class="nttuan.codes.Model.BoMon">
+            <column name="MaBoMon" not-null="true"/>
+        </many-to-one>
+        <set name="boMonsByMaGiaoVien" inverse="true">
+            <key>
+                <column name="TruongBoMon" not-null="true"/>
+            </key>
+            <one-to-many not-found="ignore" class="nttuan.codes.Model.BoMon"/>
+        </set>
+        <set name="deTaisByMaGiaoVien" inverse="true">
+            <key>
+                <column name="GiaoVienChuNhiemDeTai" not-null="true"/>
+            </key>
+            <one-to-many not-found="ignore" class="nttuan.codes.Model.DeTai"/>
+        </set>
+        <set name="giaoViensByMaGiaoVien" inverse="true">
+            <key>
+                <column name="Gvqlcm" not-null="true"/>
+            </key>
+            <one-to-many not-found="ignore" class="nttuan.codes.Model.GiaoVien"/>
+        </set>
+        <set name="giaoVienDeTaisByMaGiaoVien" inverse="true">
+            <key>
+                <column name="MaGiaoVien"/>
+            </key>
+            <one-to-many not-found="ignore" class="nttuan.codes.Model.GiaoVienDeTai"/>
+        </set>
+        <set name="khoasByMaGiaoVien" inverse="true">
+            <key>
+                <column name="TruongKhoa" not-null="true"/>
+            </key>
+            <one-to-many not-found="ignore" class="nttuan.codes.Model.Khoa"/>
+        </set>
+        <set name="nguoiThansByMaGiaoVien" inverse="true">
+            <key>
+                <column name="MaGiaoVien"/>
+            </key>
+            <one-to-many not-found="ignore" class="nttuan.codes.Model.NguoiThan"/>
+        </set>
+        <set name="thamGiaDeTaisByMaGiaoVien" inverse="true">
+            <key>
+                <column name="MaGiaoVien"/>
+            </key>
+            <one-to-many not-found="ignore" class="nttuan.codes.Model.ThamGiaDeTai"/>
+        </set>
+    </class>
+</hibernate-mapping>

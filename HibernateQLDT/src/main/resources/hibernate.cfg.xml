@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://103.130.216.99:3306/nttuanco_Test</property>
+        <property name="hibernate.connection.username">nttuanco_admin</property>
+        <property name="hibernate.connection.password">Az9a3@Pqstp2ec@</property>
+        <mapping class="resources.BoMon"/>
+        <mapping resource="BoMon.hbm.xml"/>
+        <mapping resource="ChuDe.hbm.xml"/>
+        <mapping class="resources.ChuDe"/>
+        <mapping class="resources.CongViec"/>
+        <mapping resource="CongViec.hbm.xml"/>
+        <mapping class="resources.DeTai"/>
+        <mapping resource="DeTai.hbm.xml"/>
+        <mapping class="resources.GiaoVien"/>
+        <mapping resource="GiaoVien.hbm.xml"/>
+        <mapping class="resources.GiaoVienDeTai"/>
+        <mapping resource="GiaoVienDeTai.hbm.xml"/>
+        <mapping class="resources.Khoa"/>
+        <mapping resource="Khoa.hbm.xml"/>
+        <mapping class="resources.NguoiThan"/>
+        <mapping resource="NguoiThan.hbm.xml"/>
+        <mapping class="resources.ThamGiaDeTai"/>
+        <mapping resource="ThamGiaDeTai.hbm.xml"/>
+
+
+        <!-- DB schema will be updated if needed -->
+        <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>
