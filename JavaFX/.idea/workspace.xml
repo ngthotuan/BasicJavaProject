@@ -20,143 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaFX.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/ComboBox/Controllers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/ComboBox/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/ComboBox/views.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/FileChooser/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/FileChooser/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/FileChooser/views.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/ImageView/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/ImageView/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/ImageView/images/team.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/ImageView/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/ImageView/views.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/LearnAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/LearnDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/LineChart/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/LineChart/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/LineChart/views.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Menu/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Menu/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Menu/views.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/PieChart/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/PieChart/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/PieChart/views.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Progress/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Progress/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Progress/views.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Slider/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Slider/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Slider/views.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/TableView/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/TableView/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/TableView/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/TableView/StudentDetail.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/TableView/StudentDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/TableView/views.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/TreeView/Controllers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/TreeView/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/TreeView/Views.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/WebView/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/WebView/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/WebView/views.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/XLSuKien/Controllers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/XLSuKien/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/XLSuKien/views.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XML/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XML/lib/jdom-2.0.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XML/outStudent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../XML/src/XPathParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.base/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.base/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.base/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.controls/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.controls/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.controls/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.fxml/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.fxml/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.graphics/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.graphics/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.graphics/jpeg_fx.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.media/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.media/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.media/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.media/applecoreaudio.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.media/glib.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.media/gstreamer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.media/libffi.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.swing/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.swing/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.swing/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.web/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.web/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.web/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.web/icu_web.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.web/libxml2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.web/libxslt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.web/webkit.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx-swt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.base.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.controls.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.fxml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.graphics.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.media.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.swing.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.web.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libavplugin-54.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libavplugin-56.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libavplugin-57.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libavplugin-ffmpeg-56.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libavplugin-ffmpeg-57.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libdecora_sse.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libfxplugins.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libglass.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libglassgtk2.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libglassgtk3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libgstreamer-lite.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libjavafx_font.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libjavafx_font_freetype.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libjavafx_font_pango.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libjavafx_iio.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libjfxmedia.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libjfxwebkit.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libprism_common.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libprism_es2.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libprism_sw.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/src.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML/.idea/libraries/jdom_2_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/.idea/libraries/jdom_2_0_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML/Anh_Viet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML/out/production/XML/DomParse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/out/production/XML/DomParse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML/out/production/XML/JDomParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/out/production/XML/JDomParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML/out/production/XML/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/out/production/XML/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML/outstudent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML/src/DomParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/src/DomParse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML/src/JDomParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/src/JDomParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XML/students.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/students.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/src/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/src/BookItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/untitled.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyHoiNghi/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyHoiNghi/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyHoiNghi/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyHoiNghi/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyHoiNghi/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyHoiNghi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyHoiNghi/QuanLyHoiNghi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyHoiNghi/src/main/java/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyHoiNghi/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyHoiNghi/src/main/java/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyHoiNghi/src/main/java/StudentDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyHoiNghi/src/main/resources/StudentDetail.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyHoiNghi/src/main/resources/Views/views.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyHoiNghi/src/main/resources/views.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +113,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -378,6 +256,9 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1594297363191" duration="94000" />
       <workItem from="1594297474639" duration="56000" />
+      <workItem from="1594298389977" duration="17000" />
+      <workItem from="1594298714488" duration="602000" />
+      <workItem from="1594307225147" duration="10000" />
     </task>
     <servers />
   </component>
