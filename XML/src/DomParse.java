@@ -4,12 +4,11 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import javax.print.Doc;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
@@ -50,45 +49,46 @@ public class DomParse {
         return studentArrayList;
     }
 
-    public static void createXmlFileFromListStudent(List<Student> studentList, String fileOutName) throws ParserConfigurationException, TransformerException {
+    private static Document createDocumentFromList(List<Student> studentList) throws ParserConfigurationException {
         // Khởi tạo đối tượng Document
-        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder builder = factory.newDocumentBuilder();
-        Document document = builder.newDocument();
+        Document document = DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();
         // Tạo phần tử gốc
         Element students = document.createElement("students");
         document.appendChild(students);
         // Ghi các student items vào students
         for(Student st : studentList){
-            // Tạo thẻ student con
             Element student = document.createElement("student");
             student.setAttribute("id", st.getId());
-
-            // Với mỗi thẻ student có 3 thẻ con
+            //Các thẻ con của student: name, code, age
             Element name = document.createElement("name");
             name.appendChild(document.createTextNode(st.getName()));
             student.appendChild(name);
-
             Element code = document.createElement("code");
             code.appendChild(document.createTextNode(String.valueOf(st.getCode())));
             student.appendChild(code);
-
             Element age = document.createElement("age");
             age.appendChild(document.createTextNode(String.valueOf(st.getAge())));
-            student.appendChild(code);
+            student.appendChild(age);
 
-            // Thêm thẻ student vào students root
             students.appendChild(student);
         }
+        return document;
+    }
 
-        // Ghi vào file
-        TransformerFactory transformerFactory =  TransformerFactory.newInstance();
-        Transformer transformer = transformerFactory.newTransformer();
+    private static void writeFileXml(Document document, String fileOutName) throws TransformerException {
+        Transformer transformer = TransformerFactory.newInstance().newTransformer();
+        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+        transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
         DOMSource source = new DOMSource(document);
         StreamResult result = new StreamResult(new File(fileOutName));
         transformer.transform(source, result);
-
     }
+
+    public static void createXmlFileFromListStudent(List<Student> students, String fileOutName) throws ParserConfigurationException, TransformerException {
+        Document document = createDocumentFromList(students);
+        writeFileXml(document, fileOutName);
+    }
+
     public static void main(String[] args) {
         List<Student> students = null;
         try {
@@ -99,7 +99,7 @@ public class DomParse {
         }
 
         try {
-            createXmlFileFromListStudent(students, "outstudent.xml");
+            createXmlFileFromListStudent(students, "outStudent.xml");
         } catch (ParserConfigurationException | TransformerException e) {
             e.printStackTrace();
         }
@@ -107,7 +107,7 @@ public class DomParse {
         // ví dụ chỉnh sửa nội dung tệp  outstudent.xml
         // sửa id của student id="1" thành "one" và thêm cho student này 1 thẻ email là: "one@domain.com"
         // sửa name của student id="2" thành "Harry" và xóa thẻ code của student này
-        String fileName = "outstudent.xml";
+        String fileName = "outStudent.xml";
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         File f = new File(fileName);
         try {
@@ -115,31 +115,29 @@ public class DomParse {
             Document document = builder.parse(f);
 
             NodeList listStudent = document.getDocumentElement().getChildNodes();
-
             for(int i =0 ; i < listStudent.getLength(); i++){
-                Element student = (Element)listStudent.item(i);
-                // sửa id của student id="1" thành "one" và thêm cho student này 1 thẻ email là: "one@domain.com"
-                if(student.getAttribute("id").equals("1")){
-                    student.setAttribute("id", "one");
-                    Element email = document.createElement("email");
-                    email.appendChild(document.createTextNode("one@domain.com"));
-                    student.appendChild(email);
-                }
-                // sửa name của student id="2" thành "Harry" và xóa thẻ code của student này
-                else if(student.getAttribute("id").equals("2")){
-                    Element name = (Element) student.getElementsByTagName("name").item(0);
-                    name.setTextContent("Harry");
-                    Node code = student.getElementsByTagName("code").item(0);
-                    student.removeChild(code);
+                Node node = listStudent.item(i);
+                if (node.getNodeType() == Node.ELEMENT_NODE){
+                    Element student = (Element)node;
+                    // sửa id của student id="1" thành "one" và thêm cho student này 1 thẻ email là: "one@domain.com"
+                    if(student.getAttribute("id").equals("1")){
+                        student.setAttribute("id", "one");
+                        Element email = document.createElement("email");
+                        email.appendChild(document.createTextNode("one@domain.com"));
+                        student.appendChild(email);
+                    }
+                    // sửa name của student id="2" thành "Harry" và xóa thẻ code của student này
+                    else if(student.getAttribute("id").equals("2")){
+                        Node name = student.getElementsByTagName("name").item(0);
+                        name.setTextContent("Harry");
+                        Node code = student.getElementsByTagName("code").item(0);
+                        student.removeChild(code);
+                    }
                 }
             }
 
             // Ghi lại vào file
-            TransformerFactory transformerFactory =  TransformerFactory.newInstance();
-            Transformer transformer = transformerFactory.newTransformer();
-            DOMSource source = new DOMSource(document);
-            StreamResult result = new StreamResult(fileName);
-            transformer.transform(source, result);
+            writeFileXml(document, "outStudentEdit.xml");
 
         } catch (ParserConfigurationException | SAXException | IOException | TransformerException e) {
             e.printStackTrace();
