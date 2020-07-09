@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/ComboBox/Controllers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/ComboBox/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/ComboBox/views.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/FileChooser/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/FileChooser/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/FileChooser/views.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/ImageView/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/ImageView/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/ImageView/images/team.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/ImageView/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/ImageView/views.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/LearnAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/LearnDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/LineChart/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/LineChart/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/LineChart/views.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Menu/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Menu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Menu/views.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/PieChart/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/PieChart/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/PieChart/views.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Progress/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Progress/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Progress/views.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Slider/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Slider/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Slider/views.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/TableView/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/TableView/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/TableView/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/TableView/StudentDetail.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/TableView/StudentDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/TableView/views.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/TreeView/Controllers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/TreeView/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/TreeView/Views.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/WebView/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/WebView/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/WebView/views.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/XLSuKien/Controllers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/XLSuKien/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/XLSuKien/views.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XML/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XML/lib/jdom-2.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XML/outStudent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XML/src/XPathParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.base/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.base/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.base/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.controls/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.controls/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.controls/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.fxml/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.fxml/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.graphics/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.graphics/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.graphics/jpeg_fx.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.media/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.media/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.media/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.media/applecoreaudio.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.media/glib.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.media/gstreamer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.media/libffi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.swing/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.swing/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.swing/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.web/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.web/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.web/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.web/icu_web.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.web/libxml2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.web/libxslt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/legal/javafx.web/webkit.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx-swt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.base.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.controls.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.fxml.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.graphics.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.media.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/javafx.web.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libavplugin-54.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libavplugin-56.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libavplugin-57.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libavplugin-ffmpeg-56.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libavplugin-ffmpeg-57.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libdecora_sse.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libfxplugins.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libglass.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libglassgtk2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libglassgtk3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libgstreamer-lite.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libjavafx_font.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libjavafx_font_freetype.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libjavafx_font_pango.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libjavafx_iio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libjfxmedia.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libjfxwebkit.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libprism_common.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libprism_es2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/libprism_sw.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/javafx-sdk-11.0.2/lib/src.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/.idea/libraries/jdom_2_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/.idea/libraries/jdom_2_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/Anh_Viet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/out/production/XML/DomParse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/out/production/XML/DomParse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/out/production/XML/JDomParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/out/production/XML/JDomParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/out/production/XML/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/out/production/XML/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/outstudent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/src/DomParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/src/DomParse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/src/JDomParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/src/JDomParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/students.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XML/students.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/BookItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/untitled.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectId" id="1eRvkLynkPfI3nnuZjwlCBb9dM1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.ImageView.Main" />
+      <module name="JavaFX" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.ImageView.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="JavaFX" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main2" />
+      <module name="JavaFX" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1594297363191" duration="94000" />
+      <workItem from="1594297474639" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1320" height="181" key="GridCell.Tab.0.bottom" timestamp="1594297531198">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="181" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594297531198" />
+    <state width="1320" height="181" key="GridCell.Tab.0.center" timestamp="1594297531197">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="181" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594297531197" />
+    <state width="1320" height="181" key="GridCell.Tab.0.left" timestamp="1594297531197">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="181" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594297531197" />
+    <state width="1320" height="181" key="GridCell.Tab.0.right" timestamp="1594297531198">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="181" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594297531198" />
+    <state x="166" y="0" width="1024" height="768" key="SettingsEditor" timestamp="1594297441894">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="166" y="0" width="1024" height="768" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1594297441894" />
+  </component>
+</project>
