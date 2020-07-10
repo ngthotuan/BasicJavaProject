@@ -7,28 +7,40 @@ import javax.persistence.Id;
 import java.sql.Timestamp;
 import java.util.Objects;
 
-@Entity
-public class Conferences {
-    private String id;
+@Entity(name = "Conferences")
+public class Conference {
+    private int id;
+    private Integer placeId;
     private String name;
     private String shortDescription;
     private String detailDescription;
     private String image;
     private Timestamp holdTime;
-    private Integer conferenceTime;
+    private String conferenceTime;
+    private Integer currentPerson;
 
     @Id
-    @Column(name = "id", nullable = false, length = 20)
-    public String getId() {
+    @Column(name = "id", nullable = false)
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
     @Basic
-    @Column(name = "name", nullable = true, length = 20)
+    @Column(name = "placeId", nullable = true)
+    public Integer getPlaceId() {
+        return placeId;
+    }
+
+    public void setPlaceId(Integer placeId) {
+        this.placeId = placeId;
+    }
+
+    @Basic
+    @Column(name = "name", nullable = true, length = 50)
     public String getName() {
         return name;
     }
@@ -58,7 +70,7 @@ public class Conferences {
     }
 
     @Basic
-    @Column(name = "image", nullable = true, length = 20)
+    @Column(name = "image", nullable = true, length = 200)
     public String getImage() {
         return image;
     }
@@ -78,31 +90,43 @@ public class Conferences {
     }
 
     @Basic
-    @Column(name = "conferenceTime", nullable = true)
-    public Integer getConferenceTime() {
+    @Column(name = "conferenceTime", nullable = true, length = -1)
+    public String getConferenceTime() {
         return conferenceTime;
     }
 
-    public void setConferenceTime(Integer conferenceTime) {
+    public void setConferenceTime(String conferenceTime) {
         this.conferenceTime = conferenceTime;
+    }
+
+    @Basic
+    @Column(name = "currentPerson", nullable = true)
+    public Integer getCurrentPerson() {
+        return currentPerson;
+    }
+
+    public void setCurrentPerson(Integer currentPerson) {
+        this.currentPerson = currentPerson;
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Conferences that = (Conferences) o;
-        return Objects.equals(id, that.id) &&
+        Conference that = (Conference) o;
+        return id == that.id &&
+                Objects.equals(placeId, that.placeId) &&
                 Objects.equals(name, that.name) &&
                 Objects.equals(shortDescription, that.shortDescription) &&
                 Objects.equals(detailDescription, that.detailDescription) &&
                 Objects.equals(image, that.image) &&
                 Objects.equals(holdTime, that.holdTime) &&
-                Objects.equals(conferenceTime, that.conferenceTime);
+                Objects.equals(conferenceTime, that.conferenceTime) &&
+                Objects.equals(currentPerson, that.currentPerson);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, shortDescription, detailDescription, image, holdTime, conferenceTime);
+        return Objects.hash(id, placeId, name, shortDescription, detailDescription, image, holdTime, conferenceTime, currentPerson);
     }
 }

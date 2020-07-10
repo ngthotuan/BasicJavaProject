@@ -6,37 +6,16 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.util.Objects;
 
-@Entity
-public class Accounts {
-    private String id;
-    private String name;
+@Entity(name = "Users")
+public class User {
     private String username;
     private String password;
+    private String name;
     private String email;
     private Byte isAdmin;
 
     @Id
-    @Column(name = "id", nullable = false, length = 20)
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    @Basic
-    @Column(name = "name", nullable = true, length = 20)
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    @Basic
-    @Column(name = "username", nullable = true, length = 20)
+    @Column(name = "username", nullable = false, length = 20)
     public String getUsername() {
         return username;
     }
@@ -46,13 +25,23 @@ public class Accounts {
     }
 
     @Basic
-    @Column(name = "password", nullable = true, length = 20)
+    @Column(name = "password", nullable = true, length = 50)
     public String getPassword() {
         return password;
     }
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    @Basic
+    @Column(name = "name", nullable = true, length = 30)
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Basic
@@ -79,17 +68,16 @@ public class Accounts {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Accounts accounts = (Accounts) o;
-        return Objects.equals(id, accounts.id) &&
-                Objects.equals(name, accounts.name) &&
-                Objects.equals(username, accounts.username) &&
-                Objects.equals(password, accounts.password) &&
-                Objects.equals(email, accounts.email) &&
-                Objects.equals(isAdmin, accounts.isAdmin);
+        User user = (User) o;
+        return Objects.equals(username, user.username) &&
+                Objects.equals(password, user.password) &&
+                Objects.equals(name, user.name) &&
+                Objects.equals(email, user.email) &&
+                Objects.equals(isAdmin, user.isAdmin);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, username, password, email, isAdmin);
+        return Objects.hash(username, password, name, email, isAdmin);
     }
 }

@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="HibernateQLDT" target="13" />
+      <module name="HibernateQLDT" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
