@@ -1,14 +1,12 @@
-package pojo;
+package Model.Pojo;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.sql.Timestamp;
+import java.util.Collection;
 import java.util.Objects;
 
-@Entity(name = "Conferences")
-public class Conference {
+@Entity
+public class Conference implements DAO{
     private int id;
     private Integer placeId;
     private String name;
@@ -18,6 +16,8 @@ public class Conference {
     private Timestamp holdTime;
     private String conferenceTime;
     private Integer currentPerson;
+    private Place placeByPlaceId;
+    private Collection<MeetingAccount> meetingAccountsById;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -128,5 +128,39 @@ public class Conference {
     @Override
     public int hashCode() {
         return Objects.hash(id, placeId, name, shortDescription, detailDescription, image, holdTime, conferenceTime, currentPerson);
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "placeId", referencedColumnName = "id", insertable=false, updatable=false)
+    public Place getPlaceByPlaceId() {
+        return placeByPlaceId;
+    }
+
+    public void setPlaceByPlaceId(Place placeByPlaceId) {
+        this.placeByPlaceId = placeByPlaceId;
+    }
+
+    @OneToMany(mappedBy = "conferenceByConferenceId", cascade = CascadeType.ALL)
+    public Collection<MeetingAccount> getMeetingAccountsById() {
+        return meetingAccountsById;
+    }
+
+    public void setMeetingAccountsById(Collection<MeetingAccount> meetingAccountsById) {
+        this.meetingAccountsById = meetingAccountsById;
+    }
+
+    @Override
+    public String toString() {
+        return "Conference{" +
+                "id=" + id +
+                ", placeId=" + placeId +
+                ", name='" + name + '\'' +
+                ", shortDescription='" + shortDescription + '\'' +
+                ", detailDescription='" + detailDescription + '\'' +
+                ", image='" + image + '\'' +
+                ", holdTime=" + holdTime +
+                ", conferenceTime='" + conferenceTime + '\'' +
+                ", currentPerson=" + currentPerson +
+                '}';
     }
 }

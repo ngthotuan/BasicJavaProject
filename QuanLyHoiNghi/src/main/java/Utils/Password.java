@@ -44,7 +44,7 @@ public class Password {
         return false;
     }
 
-//    public static void main(String[] args) throws NoSuchAlgorithmException, InvalidKeySpecException {
+//    public static void main(String[] args) {
 //        System.out.print("Enter password: ");
 //        String password = new Scanner(System.in).nextLine();
 //        String encode = genPassword(password);

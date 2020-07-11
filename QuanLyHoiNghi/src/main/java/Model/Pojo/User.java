@@ -1,18 +1,17 @@
-package pojo;
+package Model.Pojo;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.Collection;
 import java.util.Objects;
 
-@Entity(name = "Users")
-public class User {
+@Entity
+public class User implements DAO{
     private String username;
     private String password;
     private String name;
     private String email;
     private Byte isAdmin;
+    private Collection<MeetingAccount> meetingAccountsByUsername;
 
     @Id
     @Column(name = "username", nullable = false, length = 20)
@@ -79,5 +78,25 @@ public class User {
     @Override
     public int hashCode() {
         return Objects.hash(username, password, name, email, isAdmin);
+    }
+
+    @OneToMany(mappedBy = "userByUserId", fetch = FetchType.EAGER)
+    public Collection<MeetingAccount> getMeetingAccountsByUsername() {
+        return meetingAccountsByUsername;
+    }
+
+    public void setMeetingAccountsByUsername(Collection<MeetingAccount> meetingAccountsByUsername) {
+        this.meetingAccountsByUsername = meetingAccountsByUsername;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", isAdmin=" + isAdmin +
+                '}';
     }
 }

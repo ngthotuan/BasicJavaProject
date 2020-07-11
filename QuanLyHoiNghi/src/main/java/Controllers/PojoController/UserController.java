@@ -1,70 +1,41 @@
 package Controllers.PojoController;
 
-import Utils.HibernateUtils;
+import Model.Pojo.User;
 import Utils.Password;
-import org.hibernate.HibernateException;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
-import org.hibernate.query.Query;
-import pojo.User;
 
-import java.security.NoSuchAlgorithmException;
-import java.security.spec.InvalidKeySpecException;
 import java.util.List;
 
-public class UserController {
+public class UserController extends BasicDAO{
+
     public static User getUser(String username){
-        User User = null;
-        Session session = HibernateUtils.getSessionFactory().openSession();
-        try {
-            User = session.get(User.class, username);
-        } catch (HibernateException ex) {
-        //Log the exception
-            System.err.println(ex);
-        } finally {
-            session.close();
-        }
-        return User;
+        return (User) get(username, User.class);
     }
     public static List<User> getUsers(){
-        List<User> ds = null;
-        Session session = HibernateUtils.getSessionFactory().openSession();
-        try {
-            String hql = "select user from Users user";
-            Query query = session.createQuery(hql);
-            ds = query.list();
-        } catch (HibernateException ex) {
-            //Log the exception
-            System.err.println(ex);
-        } finally {
-            session.close();
-        }
-        return ds;
+        return (List<User>) getAll("User");
     }
-    public static boolean createUser(User user){
-        Session session = HibernateUtils.getSessionFactory().openSession();
-        if (getUser(user.getUsername())!=null) {
+
+    public static boolean createUser(User user) {
+        if(getUser(user.getUsername()) != null){
             return false;
         }
-        Transaction transaction = null;
-        try {
-            transaction = session.beginTransaction();
+        else {
             user.setPassword(Password.genPassword(user.getPassword()));
-            session.save(user);
-            transaction.commit();
-        } catch (HibernateException ex) {
-            //Log the exception
-            transaction.rollback();
-            System.err.println(ex);
-        } finally {
-            session.close();
+            return create(user);
         }
-        return true;
+    }
+    public static boolean updateUser(User user) {
+        if(getUser(user.getUsername()) == null){
+            return false;
+        }
+        else {
+            user.setPassword(Password.genPassword(user.getPassword()));
+            return update(user);
+        }
     }
     public static User login(String username, String password) {
         User user = getUser(username);
         if(user != null){
-            boolean check = Password.checkPassword(password, user.getPassword());;
+            boolean check = Password.checkPassword(password, user.getPassword());
             if(!check) user = null;
         }
         return user;

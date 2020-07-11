@@ -1,19 +1,16 @@
-package pojo;
+package Model.Pojo;
 
 import javax.persistence.Column;
-import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.IdClass;
+import java.io.Serializable;
 import java.util.Objects;
 
-@Entity(name = "MeetingAccounts")
-@IdClass(MeetingAccountPK.class)
-public class MeetingAccount {
+public class MeetingAccountPK implements Serializable {
     private String userId;
     private int conferenceId;
 
-    @Id
     @Column(name = "userId", nullable = false, length = 20)
+    @Id
     public String getUserId() {
         return userId;
     }
@@ -22,8 +19,8 @@ public class MeetingAccount {
         this.userId = userId;
     }
 
-    @Id
     @Column(name = "conferenceId", nullable = false)
+    @Id
     public int getConferenceId() {
         return conferenceId;
     }
@@ -36,7 +33,7 @@ public class MeetingAccount {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        MeetingAccount that = (MeetingAccount) o;
+        MeetingAccountPK that = (MeetingAccountPK) o;
         return conferenceId == that.conferenceId &&
                 Objects.equals(userId, that.userId);
     }

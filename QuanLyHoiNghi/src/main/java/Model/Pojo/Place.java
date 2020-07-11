@@ -1,17 +1,16 @@
-package pojo;
+package Model.Pojo;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.Collection;
 import java.util.Objects;
 
-@Entity(name = "Places")
+@Entity
 public class Place {
     private int id;
     private String name;
     private String address;
     private Integer limitPerson;
+    private Collection<Conference> conferencesById;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -67,5 +66,24 @@ public class Place {
     @Override
     public int hashCode() {
         return Objects.hash(id, name, address, limitPerson);
+    }
+
+    @OneToMany(mappedBy = "placeByPlaceId")
+    public Collection<Conference> getConferencesById() {
+        return conferencesById;
+    }
+
+    public void setConferencesById(Collection<Conference> conferencesById) {
+        this.conferencesById = conferencesById;
+    }
+
+    @Override
+    public String toString() {
+        return "Place{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", limitPerson=" + limitPerson +
+                '}';
     }
 }
