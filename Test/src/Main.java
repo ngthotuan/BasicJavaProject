@@ -10,6 +10,6 @@ public class Main {
 //
 //        listSinhVien.printList();
 
-        System.out.println("Xuân Tuấn óc chó!");
+        System.out.println(0123);
     }
 }
