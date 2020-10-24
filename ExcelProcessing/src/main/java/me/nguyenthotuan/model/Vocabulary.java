@@ -70,13 +70,6 @@ public class Vocabulary {
 
     @Override
     public String toString() {
-        return "Dictionary{" +
-                "module=" + module +
-                ", page=" + page +
-                ", english='" + english + '\'' +
-                ", spelling='" + spelling + '\'' +
-                ", meaning='" + meaning + '\'' +
-                ", example='" + example + '\'' +
-                '}';
+        return String.format("%s, %s, %s", english, meaning, example);
     }
 }
