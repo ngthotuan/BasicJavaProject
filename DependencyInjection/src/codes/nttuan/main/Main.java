@@ -1,11 +1,9 @@
 package codes.nttuan.main;
 
 import codes.nttuan.consume.Consumer;
-import codes.nttuan.consume.impl.MyDIApplication;
 import codes.nttuan.injector.MessageServiceInjector;
 import codes.nttuan.injector.impl.EmailServiceInjector;
 import codes.nttuan.injector.impl.SMSServiceInjector;
-import codes.nttuan.service.MessageService;
 
 public class Main {
     public static void main(String[] args) {
