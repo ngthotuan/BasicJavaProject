@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>be7b93b7-eed3-4412-9893-d07f5201d47c.SCHEMA:FresherManagement</OriginalElement>
+  <nodes>
+    <node x="50.919494869771086" y="199.68429360694552">be7b93b7-eed3-4412-9893-d07f5201d47c.TABLE:FresherManagement.groups</node>
+    <node x="171.9052880820837" y="53.108918705603784">be7b93b7-eed3-4412-9893-d07f5201d47c.TABLE:FresherManagement.fresher_groups</node>
+    <node x="443.1057616416732" y="43.10102604577746">be7b93b7-eed3-4412-9893-d07f5201d47c.TABLE:FresherManagement.identity_cards</node>
+    <node x="580.5343330702448" y="239.30307813733225">be7b93b7-eed3-4412-9893-d07f5201d47c.TABLE:FresherManagement.courses</node>
+    <node x="258.0615627466456" y="245.92580899763217">be7b93b7-eed3-4412-9893-d07f5201d47c.TABLE:FresherManagement.freshers</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="be7b93b7-eed3-4412-9893-d07f5201d47c.TABLE:FresherManagement.fresher_groups" target="be7b93b7-eed3-4412-9893-d07f5201d47c.TABLE:FresherManagement.groups">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="be7b93b7-eed3-4412-9893-d07f5201d47c.TABLE:FresherManagement.freshers" target="be7b93b7-eed3-4412-9893-d07f5201d47c.TABLE:FresherManagement.identity_cards">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="be7b93b7-eed3-4412-9893-d07f5201d47c.TABLE:FresherManagement.fresher_groups" target="be7b93b7-eed3-4412-9893-d07f5201d47c.TABLE:FresherManagement.freshers">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="be7b93b7-eed3-4412-9893-d07f5201d47c.TABLE:FresherManagement.freshers" target="be7b93b7-eed3-4412-9893-d07f5201d47c.TABLE:FresherManagement.courses">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="1.0015810276679842" x="406.8393843725336" y="257.06195737963697" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
