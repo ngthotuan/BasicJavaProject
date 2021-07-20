@@ -17,13 +17,13 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        List<String> values = DummyData.createDummyDataString(1000);
+        List<String> values = DummyData.createDummyDataString(100000);
         long startTime, count, endTime, millis;
 
         // sequential sort
         startTime = System.nanoTime();
-//        count = values.stream().sorted().count();
-//        System.out.println(count);
+        count = values.stream().sorted().count();
+        System.out.println(count);
         writeFile("sequential.txt", values.stream().sorted());
         endTime = System.nanoTime();
         millis = TimeUnit.NANOSECONDS.toMillis(endTime - startTime);
@@ -31,8 +31,8 @@ public class Main {
 
         // parallel sort
         startTime = System.nanoTime();
-//        count = values.parallelStream().sorted().count();
-//        System.out.println(count);
+        count = values.parallelStream().sorted().count();
+        System.out.println(count);
         writeFile("parallel.txt", values.stream().sorted());
 
         endTime = System.nanoTime();

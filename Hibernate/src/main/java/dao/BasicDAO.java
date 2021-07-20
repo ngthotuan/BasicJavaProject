@@ -61,5 +61,17 @@ public abstract class BasicDAO {
         }
         return result;
     }
-
+    public static boolean delete(Object obj){
+        boolean result = true;
+        try (Session session = HibernateUtils.getSession()) {
+            Transaction transaction = session.beginTransaction();
+            session.delete(obj);
+            transaction.commit();
+        } catch (HibernateException ex) {
+            //Log the exception
+            ex.printStackTrace();
+            result = false;
+        }
+        return result;
+    }
 }

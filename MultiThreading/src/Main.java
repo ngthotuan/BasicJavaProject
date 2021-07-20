@@ -17,7 +17,7 @@ public class Main {
         t3.start();
         try {
             Thread.sleep(1000);
-            t1.suspend();
+            t1.checkAccess();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
